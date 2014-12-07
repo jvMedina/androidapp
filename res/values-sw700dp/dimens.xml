@@ -1,0 +1,11 @@
+<resources>
+    <!-- font sizes -->
+    <dimen name="font_smallest">15sp</dimen>
+    <dimen name="font_small">24sp</dimen>
+    <dimen name="font_normal">32sp</dimen>
+    <dimen name="font_big">40sp</dimen>
+    <dimen name="font_biggest">55sp</dimen>
+    <dimen name="font_title">60sp</dimen>
+     <!-- Grid view size -->
+    <dimen name="grid_item_height">200dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- font sizes -->
+    <dimen name="font_smallest">18sp</dimen>
+    <dimen name="font_small">20sp</dimen>
+    <dimen name="font_normal">24sp</dimen>
+    <dimen name="font_big">26sp</dimen>
+    <dimen name="font_biggest">31sp</dimen>
+    <dimen name="font_title">41sp</dimen>
+    <!-- Grid view size -->
+    <dimen name="grid_item_height">200dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="size_default_height">160dp</dimen>
+  
+    <dimen name="photo_width">100dp</dimen>
+    <dimen name="photo_height">100dp</dimen>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/m_green"
+            android:paddingBottom="2dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:text="History"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_big" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/divider_shadow" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/marikina_development"
+                    android:textSize="@dimen/font_normal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/marikina_dev_history"
+                android:textColor="@color/shadow_start3"
+                android:textSize="@dimen/font_smallest" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_shadow" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/mariquina"
+                    android:textColor="@color/shadow_start3"
+                    android:textSize="@dimen/font_smallest" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/mariquina_history"
+                android:textColor="@color/shadow_start3"
+                android:textSize="@dimen/font_smallest" />
+            <!-- Maria cuina -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_shadow" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/maria_cuina"
+                    android:textColor="@color/shadow_start3"
+                    android:textSize="@dimen/font_smallest" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/maria_cuina_history"
+                android:textColor="@color/shadow_start3"
+                android:textSize="@dimen/font_smallest" />
+            <!-- Spain -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider_shadow" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/spain"
+                    android:textColor="@color/shadow_start3"
+                    android:textSize="@dimen/font_smallest" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/spain_history"
+                android:textColor="@color/shadow_start3"
+                android:textSize="@dimen/font_smallest" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <!-- Image or text -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--
+             <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="Marikina Establishment Locator"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_big"
+            android:textStyle="bold" />
+        -->
+
+        <ImageView
+            android:id="@+id/logo"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <!-- Buttons -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="Start"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="About Us"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lines="2"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="10dp"
+            android:text="Help"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_normal"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

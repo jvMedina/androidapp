@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!-- Layout for other stablishment inside the building -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mat_red_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/show_way"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:padding="2dp"
+            android:src="@drawable/show_map_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingBottom="2dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:text="Location"
+            android:textColor="@color/background"
+            android:textSize="@dimen/font_big" />
+
+        <ImageView
+            android:id="@+id/add_sub_loc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:src="@drawable/add_sublocation"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/add_loc_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:padding="3dp"
+            android:src="@drawable/add_image_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- best seller -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Best Seller : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2" />
+
+                <TextView
+                    android:id="@+id/best_seller"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Favorite : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- best seller -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Description : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Description : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- best seller -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Website : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2" />
+
+                <TextView
+                    android:id="@+id/web_site"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Favorite : "
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/shadow_start2"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

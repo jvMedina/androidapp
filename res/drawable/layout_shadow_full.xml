@@ -1,0 +1,44 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Layer 0 -->
+    <!-- Layer 1 -->
+    <!-- Layer 2 -->
+
+
+    <!-- dropshadow -->
+     <item>
+        <shape>
+            <gradient
+                android:angle="180"
+                android:endColor="@color/shadow_end3"
+                android:startColor="@color/shadow_end4" />
+
+            <padding
+                android:bottom="5dp"
+                android:left="4dp"
+                android:right="4dp"
+                android:top="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="180"
+                android:endColor="@color/shadow_end"
+                android:startColor="@color/shadow_end2" />
+
+            <padding
+                android:bottom="3dp"
+                android:left="3dp"
+                android:right="3dp"
+                android:top="3dp" />
+        </shape>
+    </item>
+    <!-- content background -->
+    <item>
+        <shape>
+            <solid android:color="@color/background" />
+        </shape>
+    </item>
+
+</layer-list>

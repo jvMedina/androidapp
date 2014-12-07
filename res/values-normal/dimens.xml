@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- font sizes -->
+    <dimen name="font_smallest">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_big">20sp</dimen>
+    <dimen name="font_biggest">25sp</dimen>
+    <dimen name="font_title">35sp</dimen>
+  <!-- Grid view size -->
+    <dimen name="grid_item_height">200dp</dimen>
+
+
+</resources>
